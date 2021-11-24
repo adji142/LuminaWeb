@@ -1,0 +1,30 @@
+.edit_form_line textarea {
+    height: 150px;
+}
+.vc-icons-selector .selected-icon i {
+    line-height: 20px !important;
+}
+i.icon {
+     margin-left: 0px !important; 
+}
+.wpb-textarea_raw_html.box_title {
+	height: 40px;
+	color: #32373c !important;
+	font-size: 14px !important;
+	font-family: inherit;
+}
+.dustrial-framework .dustrial-header h1 {
+    font-size: 2.5em !important;
+}
+.dustrial-framework .dustrial-header h1 small,
+.dustrial-framework .dustrial-footer {
+	color: #7b7b7b !important;
+}
+.dustrial-framework .dustrial-footer {
+	font-size: 14px !important;
+}
+
+.post-type-our_project .ui-dialog,
+.post-type-service .ui-dialog {
+    top: 7% !important;
+}

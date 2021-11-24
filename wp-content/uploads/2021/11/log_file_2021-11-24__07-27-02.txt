@@ -1,0 +1,101 @@
+
+---Downloaded files---
+The import files for: Import Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/WebMask
+Data file = C:\xampp\htdocs\WebMask\wp-content\plugins\dustrial-master/demo-importer/demo/demo-content.xml
+Widget file = C:\xampp\htdocs\WebMask\wp-content\plugins\dustrial-master/demo-importer/demo/widgets.wie
+Customizer file = C:\xampp\htdocs\WebMask\wp-content\plugins\dustrial-master/demo-importer/demo/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Right Sidebar : 
+
+Search - No Title - Imported
+A::3 Recent Post - Popular Blog Posts - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+A::2 Newsletter Widget - Free Consultation - Imported
+
+Footer Widgets 1 : 
+
+Navigation Menu - Our Company - Imported
+
+Footer Widgets 2 : 
+
+Navigation Menu - Our Solutions - Imported
+
+Footer Widgets 3 : 
+
+Navigation Menu - Our Industries - Imported
+
+Footer Widgets 4 : 
+
+A::3 Recent Post - Recent Post - Imported
+
+Home Two Footer Widgets : 
+
+A::1 About Logo Widget - Dustrial - Imported
+Navigation Menu - Our Company - Imported
+Navigation Menu - Our Industries - Imported
+A::2 Newsletter Widget - Free Consultation - Imported
+
+Service Single Page Widgets : 
+
+A::4 Service Recent Post - Recent Post - Imported
+A::5 Download button - No Title - Imported
+A::6 Contact Info List Widget - Have any Questions? - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

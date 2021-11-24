@@ -1,0 +1,166 @@
+/**
+*
+* -----------------------------------------------------------
+*
+* Codestar Framework Light Theme
+* A Lightweight and easy-to-use WordPress Options Framework
+*
+* Copyright 2015 Codestar <info@codestarlive.com>
+*
+* -----------------------------------------------------------
+*
+*/
+@import "compass";
+@import "vendor/mixins";
+
+/**
+ *
+ * Option
+ *
+ */
+.dustrial-option-framework {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e5e5e5;
+}
+
+.dustrial-framework .dustrial-header {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+}
+
+.dustrial-framework .dustrial-footer {
+  border-top: 1px solid #eee;
+  background-color: #f9f9f9;
+}
+
+.dustrial-framework .dustrial-header h1 {
+  color: #333;
+}
+
+/**
+* Nav container
+*/
+.dustrial-framework .dustrial-nav-background {
+  background-color: #f9f9f9;
+  border-right: 1px solid #eee;
+}
+
+.dustrial-framework .dustrial-nav ul li a {
+  border-bottom-color: #eee;
+  background-color: transparent;
+  color: #555;
+}
+
+.dustrial-framework .dustrial-nav ul li a:hover {
+  color: #333;
+}
+
+.dustrial-framework .dustrial-nav ul ul {
+  border-bottom-color: #eee;
+}
+
+.dustrial-framework .dustrial-nav ul ul::before {
+  background-color: #eee;
+}
+
+.dustrial-framework .dustrial-nav ul ul li a {
+  padding: 12px 12px 12px 24px;
+  background-color: transparent;
+  border-bottom-color: #eee;
+}
+
+.dustrial-framework .dustrial-nav ul li .dustrial-section-active,
+.dustrial-framework .dustrial-nav ul ul li .dustrial-section-active {
+  background-color: #fff;
+  color: #333;
+}
+
+/**
+* Element container
+*/
+.dustrial-framework .dustrial-body:before,
+.dustrial-framework .dustrial-body:after {
+  display: table;
+  content: "";
+}
+
+.dustrial-framework .dustrial-body:after {
+  clear: both;
+}
+
+.dustrial-framework .dustrial-content .dustrial-section-title {
+  background-color: #00a0d2;
+}
+
+.dustrial-element .dustrial-title {
+  width: 35%;
+}
+
+.dustrial-field-heading,
+.dustrial-field-subheading,
+.dustrial-element .dustrial-title h4 {
+  color: #333;
+  font-weight: 400;
+}
+
+.dustrial-element .dustrial-fieldset {
+  margin-left: 38%;
+}
+
+.dustrial-field-switcher .dustrial-text-desc {
+  margin: 0;
+  clear: both;
+}
+
+.dustrial-field-switcher label em {
+  background-color: #c5c5c5;
+}
+
+.dustrial-field-switcher label input:checked ~ em {
+  background-color: #00a0d2;
+}
+
+.dustrial-element input[type="text"],
+.dustrial-element input[type="number"],
+.dustrial-element select,
+.dustrial-element textarea {
+  width: 100%;
+  padding: 6px 8px;
+}
+
+
+.dustrial-element input[type="text"],
+.dustrial-element input[type="number"],
+.dustrial-element select {
+  height: 34px;
+}
+
+.dustrial-fieldset .wp-editor-wrap {
+  float: left;
+  width: 100%;
+}
+
+.dustrial-fieldset .wp-editor-tools {
+  padding-top: 0 !important;
+  background-color: transparent !important;
+}
+
+.dustrial-field-upload {
+  position: relative;
+}
+
+.dustrial-field-upload input[type="text"] {
+  padding-right: 75px;
+}
+
+.dustrial-field-upload .button {
+  position: absolute;
+  top: 34px;
+  right: 32px;
+}
+
+/* Seperator */
+.dustrial-framework .dustrial-nav .dustrial-seperator {
+  color: #888;
+  border-bottom-color: #dadada;
+}
