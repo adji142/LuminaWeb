@@ -10,13 +10,13 @@ jQuery(document).ready(function( $ ){
       if ($(document).scrollTop() >= 320) {
 //         $('.h3-main-logo').css('max-width', '60%');
         $elemlogo[0].style.setProperty('max-width', '60%', 'important');
-        $elem[0].style.setProperty('padding', '10px', 'important');
+        $elem[0].style.setProperty('padding', '5px', 'important');
 //         $('.h3-navigation-area').css('padding', '15px');
       } else {
 //         $('.h3-main-logo').css('max-width', '100%');
 //         $('.h3-navigation-area').css('padding', '30px');
         $elemlogo[0].style.setProperty('max-width', '100%', 'important');
-        $elem[0].style.setProperty('padding', '20px', 'important');
+        //$elem[0].style.setProperty('padding', '10px', 'important');
       }
     });
 });</script>
