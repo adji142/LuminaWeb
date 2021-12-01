@@ -1,0 +1,6 @@
+1. Rubah di ais_options dengan optionname
+	a. siteurl => domain site nya
+	b. home => domain site nya
+2. Import Themes Data di menu Theme Options -> Backup
+3. Buka file backup-options.txt dan copy isi nya ke kolom import backup, kemudian klik import data
+4. 

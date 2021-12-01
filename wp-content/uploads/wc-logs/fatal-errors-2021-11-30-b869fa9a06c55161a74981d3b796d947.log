@@ -1,0 +1,2 @@
+2021-11-30T08:55:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\includes\gateways\bacs\class-wc-gateway-bacs.php on line 8
+
