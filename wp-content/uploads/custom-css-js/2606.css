@@ -1,0 +1,29 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+@font-face {
+  font-family: Brother1816-Regular;
+  src: url(https://test.renungan-spirit.com/FONTS/Brother1816-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Brother1816-Bold;
+  src: url(https://test.renungan-spirit.com/FONTS/Brother1816-Bold.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Brother1816-Medium;
+  src: url(https://test.renungan-spirit.com/FONTS/Brother1816-Medium.otf);
+  font-weight: normal;
+}</style>
+<!-- end Simple Custom CSS and JS -->
