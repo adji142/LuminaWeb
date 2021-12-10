@@ -41,3 +41,579 @@ Stack trace:
 #4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
 #5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
 
+2021-12-10T10:06:34+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1709, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:09:39+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1710, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:11:03+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1711, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:12:08+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1712, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:13:10+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1713, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:14:14+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1714, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:15:16+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1715, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:16:19+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1716, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:17:22+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1717, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:17:23+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1718, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:18:34+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1719, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:19:35+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1721, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:20:35+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1722, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:21:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1723, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:22:44+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1724, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:23:47+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1725, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:23:47+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1726, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:24:50+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1727, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:24:51+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1728, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:25:53+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1729, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:26:56+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1730, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:27:59+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1731, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:29:04+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1732, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:30:07+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1733, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:30:08+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1734, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:31:10+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1735, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:32:10+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1736, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:33:12+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1737, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:34:12+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1738, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:35:14+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1739, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:36:19+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1740, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:36:19+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1741, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:36:20+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1742, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:37:21+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1743, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:38:22+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1744, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:39:24+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1745, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:40:27+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1746, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:41:27+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1747, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:42:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1748, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:43:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1749, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:44:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1750, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:45:31+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1751, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:46:35+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1752, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:47:37+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1753, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:48:43+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1754, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:49:50+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1755, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:50:52+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1756, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:52:38+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1757, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:53:41+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1758, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:54:44+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1759, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:55:47+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1760, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:56:50+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1761, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:57:53+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1762, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:58:54+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1763, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T10:59:59+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1764, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:01:03+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1765, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:02:03+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1766, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:03:07+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1767, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:03:08+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1768, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:04:10+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1769, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:05:14+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1770, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:05:15+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1771, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:06:17+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1772, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
+2021-12-10T11:07:19+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(1773, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\WebMask\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\WebMask\wp-includes\plugin in C:\xampp\htdocs\WebMask\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 665
+
